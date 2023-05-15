@@ -1,0 +1,39 @@
+body {
+    background-color: black; /* Set the background color to white */
+    font-family: Arial, sans-serif; /* Set the font family to Arial or a sans-serif font */
+  }
+  
+  #chat-container {
+    background-color: #f6f2ff; /* Set the background color of the chat container to a light purple shade */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  #chat-messages p {
+    margin: 10px 0;
+  }
+  
+  #message-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #663399; /* Set the background color of the send button to a darker purple shade */
+    color: #ffffff; /* Set the text color of the send button to white */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5a2d9d; /* Set a slightly darker shade of purple for the send button on hover */
+  }
+  
